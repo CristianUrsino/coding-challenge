@@ -1,0 +1,100 @@
+/*BACKGROUNG E IMPAGINAZIONE*/
+body,html{/*serve per facilitare la creazione di un conteiner con grandezza relativa*/
+    height: 100%;
+    margin:0px;
+    }
+
+body{
+    background-image: url(img/background.jpg);
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#conteiner{
+    width: 50%;
+    height: 65%;
+    margin: 2% 20% 15% 20%;
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 5%;
+    border-radius: 2%;
+}
+
+/*HEADER*/
+
+header{
+    text-align: center;
+}
+
+header > .logo{
+    width: 25%;
+    height: 13%;
+    margin: 0px;
+}
+
+#titolo{
+   color:#00DD00;
+   margin: 5px;
+}
+
+/*NAV*/
+
+nav{
+    background-color: #00DD00;
+    text-align: center;
+}
+
+nav > button{
+    margin:8px 3px;
+}
+
+/*MAIN*/
+
+section > h2{
+    display: inline-block;
+    color: white;
+    font-weight: normal;
+    margin:20px auto 0px auto;
+}
+
+div.info{
+    color:white;
+}
+
+span.via::before{/*icona nel testo, freccia*/
+    content: "\21A6  ";
+}
+
+span.via::after{/*icona nel testo, trattino*/
+    content: "  \2011  ";
+}
+
+section > h3{
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin:0px
+}
+
+/*le 3 diverse barre di caricamento nei vari section*/
+#load1{
+    height:25px;
+    width: 40%;
+    background-color: #F5B453;
+    border-radius: 2%;
+}
+
+#load2{
+    height:25px;
+    width: 65%;
+    background-color: #1EC31E;
+    border-radius: 2%;
+}
+
+#load3{
+    height:25px;
+    width: 18%;
+    background-color: #BE4141;
+    border-radius: 2%;
+}
